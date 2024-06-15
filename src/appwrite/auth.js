@@ -20,8 +20,8 @@ export class AuthService {
   // Constructor to set Appwrite endpoint and project ID
   constructor() {
     this.client
-      .setEndpoint(conf.appwriteUrl) // Set API endpoint
-      .setProject(conf.appwriteProjectId); // Set project ID
+      .setEndpoint(conf.appwriteUrl)
+      .setProject(conf.appwriteProjectId);
     this.account = new Account(this.client); // Initialize Account service
   }
 
