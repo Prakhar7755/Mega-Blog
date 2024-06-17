@@ -3,6 +3,7 @@ import authReducer from "./authSlice.js";
 
 export const store = configureStore({
   reducer: {
-    auth: authReducer,
+    auth: authSlice,
+    //TODO: add more slices here for posts
   },
 });
