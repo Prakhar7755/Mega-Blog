@@ -1,6 +1,5 @@
 /* eslint-disable react/prop-types */
-/* eslint-disable no-unused-vars */
-import React, { forwardRef, useId } from "react";
+import { forwardRef, useId } from "react";
 
 const Input = forwardRef(function Input(
   { label, type = "text", className = "", ...props },
