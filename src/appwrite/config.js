@@ -22,7 +22,7 @@ export class Service {
         conf.appwriteCollectionId,
         slug /* ID.unique() */,
         { title, content, featuredImage, status, userId }
-      ); /* here i used slug inplace of documentID -, can also use ID.unique() */
+      ); /* here i used slug in place of documentID -, can also use ID.unique() */
     } catch (err) {
       console.error(
         "Appwrite service :: POST CREATION FAILED :: createPost()",

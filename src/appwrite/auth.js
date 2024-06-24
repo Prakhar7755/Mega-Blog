@@ -39,7 +39,7 @@ export class AuthService {
         return this.login({ email, password });
       } else {
         console.error("ACCOUNT CREATION FAILED :: createAccount()");
-        return null;
+        return userAccount;
       }
     } catch (err) {
       // Log and throw any errors that occur during account creation
