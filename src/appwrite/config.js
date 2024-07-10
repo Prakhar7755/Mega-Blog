@@ -51,7 +51,7 @@ export class Service {
           content,
           featuredImage,
           status,
-          userid:userId,
+          userid: userId,
         }
       );
     } catch (error) {

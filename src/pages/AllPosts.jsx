@@ -1,24 +1,23 @@
-import React from 'react'
-import appwriteService from "../appwrite/config"
-import { useState } from 'react'
-import { useEffect } from 'react'
-import Container from '../components/container/Container'
-import PostCard from "../components/PostCard"
-
+import React from "react";
+import appwriteService from "../appwrite/config";
+import { useState } from "react";
+import { useEffect } from "react";
+import Container from "../components/container/Container";
+import PostCard from "../components/PostCard";
 
 function AllPosts() {
-  const [posts, setPosts] = useState([])
+  const [posts, setPosts] = useState([]);
 
   useEffect(() => {
     appwriteService.getPosts([]).then((posts) => {
       if (posts) {
-        setPosts(posts.documents)
+        setPosts(posts.documents);
       }
-    })
-  }, [])
+    });
+  }, []);
   //TODO: add case for array length 0
   return (
-    <div className='w-full py-8'>
+    <div className="w-full py-8">
       <Container>
         <div className="flex flex-wrap">
           {posts.map((post) => (
@@ -29,7 +28,7 @@ function AllPosts() {
         </div>
       </Container>
     </div>
-  )
+  );
 }
 
-export default AllPosts
+export default AllPosts;

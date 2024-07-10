@@ -1,4 +1,4 @@
-The concept of ***"vendor lock-in***" refers to a situation where a customer becomes dependent on a particular vendor's products or services to the extent that switching to another vendor becomes difficult, costly, or even impractical. This dependency often arises due to proprietary technologies, formats, or protocols used by the vendor, which are not easily interoperable with those of other vendors.
+The concept of **_"vendor lock-in_**" refers to a situation where a customer becomes dependent on a particular vendor's products or services to the extent that switching to another vendor becomes difficult, costly, or even impractical. This dependency often arises due to proprietary technologies, formats, or protocols used by the vendor, which are not easily interoperable with those of other vendors.
 
 Here are key aspects of vendor lock-in:
 
@@ -15,7 +15,6 @@ Here are key aspects of vendor lock-in:
 ### Examples of Vendor Lock-in:
 
 - **Software and Platforms**: Enterprise software suites or cloud platforms that use proprietary APIs or data formats can lock customers into using specific vendor services.
-  
 - **Hardware**: Devices that use proprietary connectors or protocols, making it difficult to switch to alternative hardware brands.
 
 - **Services**: Subscription-based services that store data in proprietary formats or offer unique features not easily replicated by competitors.

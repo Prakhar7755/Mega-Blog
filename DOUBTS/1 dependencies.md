@@ -15,6 +15,7 @@ These npm dependencies are commonly used in modern web development, particularly
 7. **react-router-dom**: React Router DOM provides routing capabilities to React applications. It allows for declarative routing (defining routes as components) and enables navigation between different parts of the application.
 
 ### Versioning:
+
 - The version numbers like "^2.2.5", "^5.1.1", etc., indicate the compatibility range for each package:
   - `^` (caret) allows updates to the most recent major version while keeping the minor and patch versions fixed.
   - For instance, "^2.2.5" means any version greater than or equal to 2.2.5 and less than 3.0.0 is acceptable, ensuring compatibility with future minor updates that maintain backward compatibility.
